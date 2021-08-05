@@ -1,0 +1,794 @@
+Data info:
+Network size = 3
+Network weight:
+0.000000   0.399377   0.000733   
+0.399377   0.000000   0.365897   
+0.000733   0.365897   0.000000   
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+dimension of the vector spaces spanned by the regular paths:
+regular path of dim = 0, dim vector space = 3
+
+regular path of dim = 1, dim vector space = 6
+
+regular path of dim = 2, dim vector space = 12
+
+
+
+Basis
+[[0.0], [1.0], [2.0]]
+
+[[0.0, 2.0], [2.0, 0.0], [1.0, 2.0], [2.0, 1.0], [0.0, 1.0], [1.0, 0.0]]
+
+[
+    [0.0, 2.0, 0.0], [2.0, 0.0, 2.0], [0.0, 2.0, 1.0], [1.0, 2.0, 0.0],
+    [1.0, 2.0, 1.0], [2.0, 1.0, 2.0], [0.0, 1.0, 0.0], [0.0, 1.0, 2.0],
+    [1.0, 0.0, 1.0], [1.0, 0.0, 2.0], [2.0, 0.0, 1.0], [2.0, 1.0, 0.0]
+]
+
+Algorithm step: dim = 0, index = 0
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  0  0  0  0  0  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+
+dim = 1
+
+dim = 2
+
+
+For the basis vector:  = v[0]
+This basis vetor ir referent to regular paths of dimension 1
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[2]
+u (without unmarked terms)  = v[0] + v[2]
+
+sigma_arg_max  = v[2]
+sigma_max_index = 2, et =0.0007326728196115693
+
+T_p[0][2] is empty
+Vector u is not 0 thus we have the interval: [0, 0.0007326728196115693]
+
+Algorithm step: dim = 0, index = 1
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  0  0  0  0  0  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+
+dim = 2
+
+
+For the basis vector:  = v[1]
+This basis vetor ir referent to regular paths of dimension 1
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[2]
+u (without unmarked terms)  = v[0] + v[2]
+
+sigma_arg_max  = v[2]
+sigma_max_index = 2, et =0.0007326728196115693
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 0, index = 2
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  0  0  0  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+
+dim = 2
+
+
+For the basis vector:  = v[2]
+This basis vetor ir referent to regular paths of dimension 1
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[1] + v[2]
+u (without unmarked terms)  = v[1] + v[2]
+
+sigma_arg_max  = v[2]
+sigma_max_index = 2, et =0.36589748281617523
+
+u  = v[0] + v[1]
+Stop with the column reduction
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.36589748281617523
+
+T_p[0][1] is empty
+Vector u is not 0 thus we have the interval: [0, 0.36589748281617523]
+
+Algorithm step: dim = 0, index = 3
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  0  0  0  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+
+dim = 2
+
+
+For the basis vector:  = v[3]
+This basis vetor ir referent to regular paths of dimension 1
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[1] + v[2]
+u (without unmarked terms)  = v[1] + v[2]
+
+sigma_arg_max  = v[2]
+sigma_max_index = 2, et =0.36589748281617523
+
+u  = v[0] + v[1]
+Stop with the column reduction
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.36589748281617523
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 0, index = 4
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  0  0  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+
+dim = 2
+
+
+For the basis vector:  = v[4]
+This basis vetor ir referent to regular paths of dimension 1
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[1]
+u (without unmarked terms)  = v[0] + v[1]
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 0, index = 5
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  0  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+
+dim = 2
+
+
+For the basis vector:  = v[5]
+This basis vetor ir referent to regular paths of dimension 1
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[1]
+u (without unmarked terms)  = v[0] + v[1]
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+
+Checking for topological features that last up to infinity
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+
+dim = 2
+
+
+Temos que Marked[0][0] esta marcado e T_p[0][0] esta vazio
+Adicionar  o intervalo: [0, inf]
+Algorithm step: dim = 1, index = 0
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+
+dim = 2
+
+
+For the basis vector:  = v[0]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[1]
+u (without unmarked terms)  = v[1]
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.0007326728196115693
+
+T_p[1][1] is empty
+Vector u is not 0 thus we have the interval: [0.0007326728196115693, 0.0007326728196115693]
+
+Algorithm step: dim = 1, index = 1
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  0  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+
+dim = 2
+
+
+For the basis vector:  = v[1]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[1]
+u (without unmarked terms)  = v[1]
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.0007326728196115693
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 1, index = 2
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+
+dim = 2
+
+
+For the basis vector:  = v[2]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[3] + v[4]
+u (without unmarked terms)  = v[3] + v[4]
+
+sigma_arg_max  = v[4]
+sigma_max_index = 4, et =0.3993766449391428
+
+T_p[1][4] is empty
+Vector u is not 0 thus we have the interval: [0.3993766449391428, 0.3993766449391428]
+
+Algorithm step: dim = 1, index = 3
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 4: v[3] + v[4], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[3]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[1] + v[2] + v[5]
+u (without unmarked terms)  = v[1] + v[5]
+
+sigma_arg_max  = v[5]
+sigma_max_index = 5, et =0.3993766449391428
+
+T_p[1][5] is empty
+Vector u is not 0 thus we have the interval: [0.3993766449391428, 0.3993766449391428]
+
+Algorithm step: dim = 1, index = 4
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[4]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[2] + v[3]
+u (without unmarked terms)  = v[3]
+
+sigma_arg_max  = v[3]
+sigma_max_index = 3, et =0.36589748281617523
+
+T_p[1][3] is empty
+Vector u is not 0 thus we have the interval: [0.36589748281617523, 0.36589748281617523]
+
+Algorithm step: dim = 1, index = 5
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  0  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[5]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[2] + v[3]
+u (without unmarked terms)  = v[3]
+
+sigma_arg_max  = v[3]
+sigma_max_index = 3, et =0.36589748281617523
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 1, index = 6
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  1  0  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[6]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[4] + v[5]
+u (without unmarked terms)  = v[4] + v[5]
+
+sigma_arg_max  = v[5]
+sigma_max_index = 5, et =0.3993766449391428
+
+u  = v[1] + v[4]
+Stop with the column reduction
+
+sigma_arg_max  = v[4]
+sigma_max_index = 4, et =0.3993766449391428
+
+u  = v[1] + v[3]
+Stop with the column reduction
+
+sigma_arg_max  = v[3]
+sigma_max_index = 3, et =0.3993766449391428
+
+u  = v[1]
+Stop with the column reduction
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 1, index = 7
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  1  1  0  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[7]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[2] + v[4]
+u (without unmarked terms)  = v[4]
+
+sigma_arg_max  = v[4]
+sigma_max_index = 4, et =0.3993766449391428
+
+u  = v[3]
+Stop with the column reduction
+
+sigma_arg_max  = v[3]
+sigma_max_index = 3, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 1, index = 8
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  1  1  1  0  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[8]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[4] + v[5]
+u (without unmarked terms)  = v[4] + v[5]
+
+sigma_arg_max  = v[5]
+sigma_max_index = 5, et =0.3993766449391428
+
+u  = v[1] + v[4]
+Stop with the column reduction
+
+sigma_arg_max  = v[4]
+sigma_max_index = 4, et =0.3993766449391428
+
+u  = v[1] + v[3]
+Stop with the column reduction
+
+sigma_arg_max  = v[3]
+sigma_max_index = 3, et =0.3993766449391428
+
+u  = v[1]
+Stop with the column reduction
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 1, index = 9
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  1  1  1  1  0  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[9]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[0] + v[2] + v[5]
+u (without unmarked terms)  = v[5]
+
+sigma_arg_max  = v[5]
+sigma_max_index = 5, et =0.3993766449391428
+
+u  = v[1]
+Stop with the column reduction
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 1, index = 10
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  1  1  1  1  1  0  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[10]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[1] + v[3] + v[4]
+u (without unmarked terms)  = v[1] + v[3] + v[4]
+
+sigma_arg_max  = v[4]
+sigma_max_index = 4, et =0.3993766449391428
+
+u  = v[1]
+Stop with the column reduction
+
+sigma_arg_max  = v[1]
+sigma_max_index = 1, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+Algorithm step: dim = 1, index = 11
+-----------------------------------------
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  1  1  1  1  1  1  0  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
+For the basis vector:  = v[11]
+This basis vetor ir referent to regular paths of dimension 2
+
+Calculating the column reduction!
+
+u = d(path_vector)  = v[1] + v[3] + v[5]
+u (without unmarked terms)  = v[1] + v[3] + v[5]
+
+sigma_arg_max  = v[5]
+sigma_max_index = 5, et =0.3993766449391428
+
+u  = v[3]
+Stop with the column reduction
+
+sigma_arg_max  = v[3]
+sigma_max_index = 3, et =0.3993766449391428
+
+u  = 0
+Stop with the column reduction
+
+Vector u is 0 thus nothing is left to be done at this iteration
+
+
+Checking for topological features that last up to infinity
+
+Marked elements
+dim= 0   ->  1  1  1  
+dim= 1   ->  0  1  0  1  1  1  
+dim= 2   ->  0  1  0  0  0  1  1  1  1  1  1  1  
+
+
+T_p elements
+dim = 0
+element 1: v[0] + v[1], et = 0.36589748281617523
+element 2: v[0] + v[2], et = 0.0007326728196115693
+
+dim = 1
+element 1: v[1], et = 0.0007326728196115693
+element 3: v[3], et = 0.36589748281617523
+element 4: v[3] + v[4], et = 0.3993766449391428
+element 5: v[1] + v[5], et = 0.3993766449391428
+
+dim = 2
+
+
